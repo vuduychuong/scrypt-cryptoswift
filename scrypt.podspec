@@ -23,7 +23,7 @@ s.source_files = "scrypt/Swift/*.{swift}", "scrypt/scrypt.h"
 s.public_header_files = "scrypt/scrypt.h"
 #s.module_map = "scrypt/cimpl.modulemap"
 s.requires_arc = true
-s.dependency 'CryptoSwift', '~> 0.13'
+s.dependency 'CryptoSwift', '~> 1.4.0'
 s.pod_target_xcconfig = {'SWIFT_WHOLE_MODULE_OPTIMIZATION' => 'YES', 
 			'SWIFT_COMPILATION_MODE' => 'wholemodule',
 			'SWIFT_OPTIMIZATION_LEVEL' => '-Owholemodule',

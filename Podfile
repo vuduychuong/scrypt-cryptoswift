@@ -1,9 +1,9 @@
 def import_pods
-  pod 'CryptoSwift', '~> 0.12'
+  pod 'CryptoSwift', '~> 1.4.0'
 end
 
 target 'scrypt' do
-  platform :osx, '10.11'
+  platform :osx, '11.2'
 #  use_frameworks!
   use_modular_headers!
   import_pods
