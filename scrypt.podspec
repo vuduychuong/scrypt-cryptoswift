@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-s.name             = "scrypt"
-s.version          = "3.0"
+s.name             = "metadium-scrypt"
+s.version          = "3.1"
 s.summary          = "Scrypt implementation in vanilla Swift for iOS ans macOS"
 
 s.description      = <<-DESC
@@ -14,7 +14,7 @@ s.source           = { :git => 'https://github.com/shamatar/scrypt-cryptoswift.g
 s.social_media_url = 'https://twitter.com/shamatar'
 
 s.swift_version = '4.2'
-s.module_name = 'scrypt'
+s.module_name = 'metadium-scrypt'
 s.ios.deployment_target = "9.0"
 s.osx.deployment_target = "10.11"
 s.source_files = "scrypt/Swift/*.{swift}", "scrypt/scrypt.h"
